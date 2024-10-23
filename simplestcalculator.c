@@ -20,7 +20,7 @@ int func1() {
   }
   else if (op == '-')res = a - b;
   else if (op == '+')res = a + b;
-  else {printf:("error motherfucker"); }
+  else {printf("error motherfucker"); }
   if (validDivision == 1){
   printf("%lf", res);}
   return 0;
